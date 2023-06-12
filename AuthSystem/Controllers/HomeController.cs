@@ -21,7 +21,7 @@ namespace AuthSystem.Controllers
 
         public IActionResult Index()
         {
-            ViewData["UserID"]=_userManager.GetUserId(this.User);
+            ViewData["UserID"]=_userManager.GetUserId(User);
             return View();
         }
 

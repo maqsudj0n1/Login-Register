@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\YouTube\\Videos\\Asp.Net Core\\MVC - SignUp, Login and Role\\Project\\AuthSystem\\AuthSystem\\AuthSystem.csproj": {}
+    "C:\\Users\\acer\\source\\repos\\Authentication-System\\AuthSystem\\AuthSystem.csproj": {}
   },
   "projects": {
-    "D:\\YouTube\\Videos\\Asp.Net Core\\MVC - SignUp, Login and Role\\Project\\AuthSystem\\AuthSystem\\AuthSystem.csproj": {
+    "C:\\Users\\acer\\source\\repos\\Authentication-System\\AuthSystem\\AuthSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YouTube\\Videos\\Asp.Net Core\\MVC - SignUp, Login and Role\\Project\\AuthSystem\\AuthSystem\\AuthSystem.csproj",
+        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\Authentication-System\\AuthSystem\\AuthSystem.csproj",
         "projectName": "AuthSystem",
-        "projectPath": "D:\\YouTube\\Videos\\Asp.Net Core\\MVC - SignUp, Login and Role\\Project\\AuthSystem\\AuthSystem\\AuthSystem.csproj",
-        "packagesPath": "C:\\Users\\CodAffection\\.nuget\\packages\\",
-        "outputPath": "D:\\YouTube\\Videos\\Asp.Net Core\\MVC - SignUp, Login and Role\\Project\\AuthSystem\\AuthSystem\\obj\\",
+        "projectPath": "C:\\Users\\acer\\source\\repos\\Authentication-System\\AuthSystem\\AuthSystem.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\source\\repos\\Authentication-System\\AuthSystem\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\CodAffection\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\acer\\Desktop\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,10 +54,6 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -59,6 +61,10 @@
               "version": "[7.0.3, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.4, )"
             }
@@ -82,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
